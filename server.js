@@ -48,7 +48,6 @@ const corsOptions = {
 connectDB();
 const app = express();
 app.use(cors(corsOptions));
-
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
